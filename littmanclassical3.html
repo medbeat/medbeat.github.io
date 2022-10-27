@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="MEDBEAT.png" class="logo">
+            <nav>
+                <ul id ='menulist'>
+                    <li><a href="web.html">Home Page</a></li>
+                    <li><a href="shop.html">Sthetoscopes</a></li>
+                    <li><a href="box.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img src="pause.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h3>Littman Classical III</h3>
+                <h4>$--</h4>
+                <a href="littman 3.html"><button>Buy Now</button></a>
+            </div>
+            <div class="col-2">
+                <img src="steth2.png" class="steth">
+                <div class="color-box"></div>
+                <div class="add">
+                    <a href="littman 3.html"><button class="buy"><img src="play.png" ></button></a>
+                    <p><small>Buy Now</small></p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <script>
+        var menulist = document.getElementById("menulist");
+        menulist.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menulist.style.maxHeight == "0px")
+            {
+                menulist.style.maxHeight = "130px";
+            }
+            else
+            {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
