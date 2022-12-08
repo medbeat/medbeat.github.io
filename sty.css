@@ -259,6 +259,8 @@ button:hover{
 
     .menu-icon{
         display: block;
+        width: 40px;
+        transform: rotate(90deg);
     }
 
     .add img{
@@ -271,6 +273,13 @@ button:hover{
         cursor: pointer;
         margin-left: 10px ;
     }
+
+    .col-2 .steth{
+        transform: translateX(105px);
+
+    }
+
+
 
     #menulist{
         overflow: hidden;
@@ -285,10 +294,9 @@ button:hover{
     .col-2{
         flex-basis: 100%;
         margin-bottom: 50px;
+        transform: translateX(20px);
     }
-    .col-2.steth{
-        width: 97%;
-    }
+
     
     .color-box{
         transform: translateX(75px);
