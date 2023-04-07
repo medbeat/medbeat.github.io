@@ -5,7 +5,9 @@
     font-family: "poppins",sans-serif;
 }
 
-
+h3{
+    display: flex;
+}
 .container{
     width: 100%;
     padding-left: 8%;
@@ -61,6 +63,17 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
     
+}
+
+.text{
+    margin-top: 20vh;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
 }
 
 form{
