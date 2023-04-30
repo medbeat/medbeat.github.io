@@ -56,7 +56,8 @@ nav ul li a:hover{
 
 .cone{
     width: 100%;
-    height: 60vh;
+    height: 170vh;
+    padding-bottom: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,7 +189,8 @@ form button{
 
     .cone{
         width: 100%;
-        height: 70vh;
+        height: 145vh;
+        padding-bottom: 50vh;
         display: flex;
         align-items: center;
         justify-content: center;
